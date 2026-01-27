@@ -2,6 +2,7 @@ package LC.Arrays;
 
 import java.util.HashMap;
 import java.util.Map;
+// Verified solution – HashMap approach
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
