@@ -2,7 +2,7 @@ package LC.Practice;
 
 public class FibonacciNumber {
 
-    static void Fibonacci(INT N)
+    static void Fibonacci(int N)
     {
         int n1=0 , n2=1;
 
