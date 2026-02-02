@@ -8,8 +8,16 @@ import java.util.HashSet;
 import java.util.List;
 
 public class ThreeSum {
+    /* 
+    Time complexity: O(n^2)
+    Space complexity: O(n)
+    Depends on language you use. In python, sorting algorithm use Timsort which uses O(n) space. 
+    */
+
     public List<List<Integer>> threeSum(int[] nums) {
+
         List<List<Integer>> res = new ArrayList<>();
+
         Arrays.sort(nums);
 
         for (int i = 0; i < nums.length; i++) {
