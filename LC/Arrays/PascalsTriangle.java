@@ -1,3 +1,4 @@
+package LC.Arrays;
 import java.util.*;
 
 public class PascalsTriangle {

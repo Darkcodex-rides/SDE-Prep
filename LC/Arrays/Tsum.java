@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.Collections;
 
-public class TSum {
+public class Tsum {
 
     public List<List<Integer>> threeSum(int[] nums) {
 
