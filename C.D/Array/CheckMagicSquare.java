@@ -14,7 +14,7 @@ public class CheckMagicSquare {
 
         // Diagonal sums
         //primary diagonal -> row==col
-        //secondary diagonal->col=n-1-row
+        //secondary diagonal->col=n-1-row i.e row+col=n-1
         for (int row = 0; row < n; row++) {
             pdsum += grid[row][row];
             sdsum += grid[row][n - 1 - row];
